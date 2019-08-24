@@ -1,2 +1,1 @@
-# gcp-consul
-Module that create Consul server in GCP
+# Module that create Consul server in GCP
