@@ -10,8 +10,8 @@ variable "public_key_path" {
 }
 variable "gcp_image" {
   description = "GCP Image with consul installed"
-  default     = "projects/sup-eng-eu/global/images/packer-1563530504"
+  default     = "< Your image >"
 }
 variable "subnet_vm" {
-  default = "projects/sup-eng-eu/regions/us-east4/subnetworks/subnet-vm"
+  default = "< You subnet >"
 }
