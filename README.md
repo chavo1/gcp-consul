@@ -11,7 +11,7 @@
 git clone git clone https://github.com/chavo1/gcp-consul.git
 cd gcp-consul.git/example
 ```
-- Create terraform.tfvars file with needed variables and file with GCP credential (account.json) or just add a needed variables file. 
+- Create terraform.tfvars file with needed variables and file with GCP credential (account.json) or just add a needed variables. 
 ### We can start with deploying process
 ```
 terraform init
