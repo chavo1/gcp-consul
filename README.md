@@ -11,7 +11,7 @@
 git clone git clone https://github.com/chavo1/gcp-consul.git
 cd gcp-consul.git/example
 ```
-- Create terraform.tfvars file with needed credential and variables and set consul version based on your AMI. Please see example.tfvars:
+- Create terraform.tfvars file with needed credentials and variables for your image.
 
 ### We can start with deploying process
 ```
