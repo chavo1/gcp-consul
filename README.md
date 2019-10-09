@@ -5,7 +5,7 @@
 ## Prerequisites
 - Please install the following component:
   - | [Terraform](https://www.terraform.io/)
-- You must also have an GCP account.
+- You must also have a GCP account.
 - Clone the repo:
 ```
 git clone git clone https://github.com/chavo1/gcp-consul.git
