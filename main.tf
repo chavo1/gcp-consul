@@ -21,7 +21,7 @@ resource "google_compute_instance" "server" {
   }
 
   metadata = {
-    ssh-keys = "kayode:${file(var.public_key_path)}"
+    ssh-keys = "kayode:${file("${path.module}/id_rsa.pub")}"
   }
 
   metadata_startup_script = file("${path.module}/scripts/consul.sh")
